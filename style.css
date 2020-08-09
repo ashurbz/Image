@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://wallpaperaccess.com/full/1854073.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    margin: 10px 0px 0px 10px;
+}
+#heading{
+    background-color:black;
+    box-shadow: cyan 0 0 10px 2px;
+    color: white;
+    padding: 10px;
+    /* height: 3rem; */
+   
+    /* margin-top: 10px; */
+}
+.header-container{
+    /* margin: 10px; */
+    height: 4rem;
+    float: right;
+    padding: 10px;
+}
+.header-container a{
+ color: inherit;
+ text-decoration: none;
+}
+.main{
+    padding: 10px;
+}
+#main-heading{
+    text-align:center;
+    color:cyan;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.task{
+    margin: 23px 0px;
+    /* display: flex; */
+    justify-content: space-around;
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+    color:white;
+}
+#button{
+    color: white;
+    border: none;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.label{
+    float: left;
+    width: 40%;
+    font-weight: bold;
+
+}
+.inputs>input,textarea{
+    width: 50%;
+    border: solid white 0.5px;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    /* background: rgba(255, 255, 255, 0.3) */
+}
+
+/* .inputs>input :focus{
+    border: none;
+    outline: none;
+} */
