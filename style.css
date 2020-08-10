@@ -77,8 +77,52 @@ h2{
     padding: 5px;
     /* background: rgba(255, 255, 255, 0.3) */
 }
+#taskList li{
+    color: white;
+    box-shadow: white 0 0 10px 1px;
+    margin: 10px 0;
+    text-align: left;
+    padding: 5px;
 
-/* .inputs>input :focus{
+}
+#taskList{
+    color: white;
+    text-align: center;
+    padding-inline-start: 0;
+    margin-top:50px ;
+    list-style: none;
+}
+
+#input-search{
+    width: 100%;
+    padding: 10px;
     border: none;
     outline: none;
-} */
+    box-shadow: inset black 0 0 5px 2px;
+}
+#search{
+    padding: 5px 10px;
+    float: right;
+    margin: 10px 0px; 
+    width: 100%;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    box-shadow: white 0 0 5px 2px;
+    border-radius: 5px;
+}
+
+#taskList li img{
+    height: 100%;
+    width: 100%;
+
+}
+#result-heading{
+    color: white;
+    text-align: center;
+}
+#counter{
+    color: white;
+    font-weight: bold;
+}
