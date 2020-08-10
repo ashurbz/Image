@@ -37,6 +37,8 @@ document.getElementById("search").addEventListener("click" , function(){
         task.appendChild(button)
     
         button.onclick=function(){ 
+            
+
             let marksValue = document.getElementById('marks'+localStorage.key(i).replace("task","") ).value
             if(marksValue<0 || marksValue>10 || marksValue =="" ){
                 return alert("Marks Cannot Be Less Than 0 or Greater Than 10 ")
@@ -44,7 +46,7 @@ document.getElementById("search").addEventListener("click" , function(){
 
             localStorage.setItem(localStorage.key(i)," Marks = "+marksValue+ " Evaluated");
 
-            
+            document.getElementById("search").click()
             
             
             
