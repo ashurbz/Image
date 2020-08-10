@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Heading for the main file */
 
 h2{
     margin: 10px 0px 0px 10px;
@@ -14,12 +15,9 @@ h2{
     box-shadow: cyan 0 0 10px 2px;
     color: white;
     padding: 10px;
-    /* height: 3rem; */
-   
-    /* margin-top: 10px; */
+    
 }
 .header-container{
-    /* margin: 10px; */
     height: 4rem;
     float: right;
     padding: 10px;
@@ -40,15 +38,17 @@ h2{
     flex-direction: column;
 }
 
+/* Task Fields */
+
 .task{
     margin: 23px 0px;
-    /* display: flex; */
     justify-content: space-around;
     font-size: large;
     font-weight: 400;
     font-style: italic;
     color:white;
 }
+/* Submit Button */
 #button{
     color: white;
     border: none;
@@ -60,13 +60,14 @@ h2{
     text-align: center;
     width: 100%;
 }
-
+/* Task Fields Heading */
 .label{
     float: left;
     width: 40%;
     font-weight: bold;
 
 }
+/* Input fields stylling */
 .inputs>input,textarea{
     width: 50%;
     border: solid white 0.5px;
@@ -75,7 +76,6 @@ h2{
     outline: none;
     color: white;
     padding: 5px;
-    /* background: rgba(255, 255, 255, 0.3) */
 }
 #taskList li{
     color: white;
@@ -112,7 +112,7 @@ h2{
     box-shadow: white 0 0 5px 2px;
     border-radius: 5px;
 }
-
+/* adding image in evaluation page */
 #taskList li img{
     height: 100%;
     width: 100%;
@@ -125,4 +125,9 @@ h2{
 #counter{
     color: white;
     font-weight: bold;
+}
+
+a{
+    box-shadow: 0 0 1px 1px;
+    padding: 5px;
 }
